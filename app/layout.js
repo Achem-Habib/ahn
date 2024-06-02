@@ -17,16 +17,16 @@ export const metadata = {
     title: "Portfolio | Achem - Full Stack Developer",
     description:
       "I build websites from scratch, making them look good and work smoothly.",
-    url: "https://ahn.vercel.app",
+    url: "https://ahn-sage.vercel.app/",
     siteName: "AHN",
     images: [
       {
-        url: "https://ahn.vercel.app/portfolio-dark.png",
+        url: "https://ahn-sage.vercel.app/portfolio-dark.png",
         width: 800,
         height: 600,
       },
       {
-        url: "https://nextjs.org/portfolio-light.png",
+        url: "https://ahn-sage.vercel.app/portfolio-light.png",
         width: 1800,
         height: 1600,
         alt: "Portfolio | Achem - Full Stack Developer",
