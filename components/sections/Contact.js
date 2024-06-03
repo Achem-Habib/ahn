@@ -1,5 +1,6 @@
 import { MdCall, MdOutlineLocationOn, MdOutlineMail } from "react-icons/md";
 
+import Link from "next/link";
 import ContactForm from "../ContactForm";
 import Socials from "../_child/Socials";
 
@@ -7,14 +8,17 @@ const contacts = [
   {
     icon: <MdOutlineMail className="w-7 h-7 text-gray-200 my-auto" />,
     address: "achemnomaer@gmail.com",
+    href: "mailto:achemnomaer@gmail.com",
   },
   {
     icon: <MdCall className="w-7 h-7 text-gray-200 my-auto" />,
     address: "+8801889197863",
+    href: "tel:+8801889197863",
   },
   {
     icon: <MdOutlineLocationOn className="w-7 h-7 text-gray-200 my-auto" />,
     address: "Pollobi, Modina market, Sylhet, Bangladesh",
+    href: "#",
   },
 ];
 
@@ -43,9 +47,12 @@ const Contact = () => {
               {contacts.map((contact, index) => (
                 <li key={index} className="flex items-center">
                   {contact.icon}
-                  <a className="text-gray-300 text-sm ml-3">
+                  <Link
+                    href={contact.href}
+                    className="text-gray-300 hover:text-gray-400 text-sm ml-3"
+                  >
                     <strong>{contact.address}</strong>
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
