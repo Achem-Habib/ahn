@@ -8,7 +8,7 @@ const socials = [
   },
   {
     icon: <RiGithubLine className="w-6 h-6" />,
-    href: "https://github.com/Achem-Habib",
+    href: "https://github.com/achemnomaer",
   },
   {
     icon: <RiLinkedinFill className="w-6 h-6" />,

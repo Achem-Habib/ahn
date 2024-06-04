@@ -73,7 +73,7 @@ const Landing = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mt-8 flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row"
+              className="mt-8 flex flex-wrap space-x-4 gap-y-4 items-center"
             >
               <NeuButton both>Resume</NeuButton>
               <DrawOutlineButton>See my work</DrawOutlineButton>
